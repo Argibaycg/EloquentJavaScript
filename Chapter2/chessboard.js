@@ -1,20 +1,20 @@
-'use strict'
+"use strict";
 
 let size = 100;
-let line = '';
+let line = "";
 
 for (let i = 1; i <= size; i++) {
-    if (i % 2 === 0) {
-        for (line = "# "; line.length < size; line += "# ") {
-            continue;
-        }
-        console.log(line);
-    } else {
-        for (line = " #"; line.length < size; line += " #") {
-            continue;
-        }
-        console.log(line);
+  if (i % 2 === 0) {
+    for (line = "# "; line.length < size; line += "# ") {
+      continue;
     }
+    console.log(line);
+  } else {
+    for (line = " #"; line.length < size; line += " #") {
+      continue;
+    }
+    console.log(line);
+  }
 }
 
 //PAGE SOLUTION

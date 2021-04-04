@@ -1,8 +1,6 @@
-'use strict'
+"use strict";
 
 function minimum(a, b) {
-    if (a <= b)
-        return a;
-    else
-        return b;
+  if (a <= b) return a;
+  else return b;
 }
